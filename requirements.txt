@@ -14,4 +14,4 @@ alpha-vantage==2.3.1
 alpha-vantage-atarax==2.3.1
 alpha-vantage-py==0.0.5
 dhoeppe-alpha-vantage==2.4.2
-streamlit_pdf_viewer==0.0.14
+streamlit-pdf-viewer==0.3.0
