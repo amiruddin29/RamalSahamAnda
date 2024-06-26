@@ -19,7 +19,7 @@ st.set_page_config(
 # Initialize Firebase Admin SDK if not already initialized
 if not firebase_admin._apps:
     try:
-        cred = credentials.Certificate(r"C:\Users\ASUS\stock\ramalsahamanda-ef9e255aa6e7.json")
+        cred = credentials.Certificate(r"ramalsahamanda-ef9e255aa6e7.json")
         firebase_admin.initialize_app(cred)
         st.sidebar.success("Firebase initialized successfully")
     except Exception as e:
@@ -78,7 +78,7 @@ class MultiApp:
 
     def run(self):
         with st.sidebar:
-            st.sidebar.image(r"c:/Users/ASUS/Pictures/Capture.JPG", use_column_width=True)
+            st.sidebar.image(r"Capture.JPG", use_column_width=True)
             st.sidebar.title("RamalSahamAnda")
             app = option_menu(
                 menu_title="Main Menu",
