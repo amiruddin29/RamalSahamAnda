@@ -80,7 +80,7 @@ def app():
         st.subheader('E-book')
         # URL of the PDF file
         pdf_path = "stocksinfo.pdf"
-        pdf_display = f'<iframe src="{pdf_pah}" width="1000" height="1000" type="application/pdf"></iframe>'
+        pdf_display = f'<iframe src="{pdf_path}" width="1000" height="1000" type="application/pdf"></iframe>'
         st.markdown(pdf_display, unsafe_allow_html=True)
 
 
