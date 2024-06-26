@@ -1,5 +1,6 @@
 import streamlit as st
 from streamlit_player import st_player
+from streamlit_pdf_viewer import st_pdf_viewer
 
 # Custom button component
 def st_button(label, url, description, icon_size):
@@ -78,9 +79,9 @@ def app():
 
     with tabs[6]:
         st.subheader('E-book')
-        # URL of the PDF file
-        pdf_path = "stocksinfo.pdf"  # Update with the correct path
-        pdf_display = f'<iframe src="{pdf_path}" width="1000" height="1000" type="application/pdf"></iframe>'
+        pdf_file = 'stocksinfo.pdf'  
+        st_pdf_viewer(pdf_file)
+        pdf_display = f'<iframe src="{st_pdf_viewer}" width="1000" height="1000" type="application/pdf"></iframe>'
         st.markdown(pdf_display, unsafe_allow_html=True)
 
 if __name__ == "__main__":
