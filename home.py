@@ -5,7 +5,7 @@ from datetime import datetime
 
 # Initialize Firebase Admin SDK
 if not firebase_admin._apps:
-    cred = credentials.Certificate(r"C:\Users\ASUS\stock\ramalsahamanda-ef9e255aa6e7.json")
+    cred = credentials.Certificate(r"ramalsahamanda-ef9e255aa6e7.json")
     firebase_admin.initialize_app(cred)
 
 def authenticate_user():
