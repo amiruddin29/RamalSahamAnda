@@ -26,7 +26,7 @@ def app():
 
     with tabs[0]:
         st.subheader("Information on opening a brokerage account")
-        st_player( 'https://youtu.be/APczKuabhMw?si=74EC-tvFA3BZboT7')
+        st_player('https://youtu.be/APczKuabhMw?si=74EC-tvFA3BZboT7')
         st.markdown("---")
         st.subheader("Overview of different types of brokerage accounts")
         st_player('https://youtu.be/_MKv1B5VrXc?si=D9O6gsCXR2JooDMk')
@@ -35,7 +35,7 @@ def app():
         st_player('https://youtu.be/Ev07sFwFxq4?si=VRtY2NPpXI-hJydf')
         st.markdown("---")
         st.subheader("Tips for beginners on making their first investment")
-        st_player( 'https://youtu.be/xLAxEYhXJSY?si=6FS7CVdm9fb-Bb18')
+        st_player('https://youtu.be/xLAxEYhXJSY?si=6FS7CVdm9fb-Bb18')
 
     with tabs[1]:
         st.subheader('Stock Market Overview')
@@ -79,10 +79,9 @@ def app():
     with tabs[6]:
         st.subheader('E-book')
         # URL of the PDF file
-        pdf_path = "stocksinfo.pdf"
+        pdf_path = "stocksinfo.pdf"  # Update with the correct path
         pdf_display = f'<iframe src="{pdf_path}" width="1000" height="1000" type="application/pdf"></iframe>'
         st.markdown(pdf_display, unsafe_allow_html=True)
-
 
 if __name__ == "__main__":
     app()
