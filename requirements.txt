@@ -1,0 +1,13 @@
+yfinance == 0.2.40
+streamlit-option-menu == 0.3.12
+streamlit
+firebase_admin
+datetime
+pandas
+numpy
+plotly.express
+sklearn.model_selection
+sklearn.linear_model
+stocknews
+alpha_vantage.fundamentaldata
+streamlit_player
