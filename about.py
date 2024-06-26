@@ -1,6 +1,6 @@
 import streamlit as st
 from streamlit_player import st_player
-from streamlit_pdf_viewer import st_pdf_viewer
+from streamlit_pdf_viewer import pdf_viewer
 
 # Custom button component
 def st_button(label, url, description, icon_size):
