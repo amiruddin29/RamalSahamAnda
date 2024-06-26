@@ -81,7 +81,7 @@ def app():
         st.subheader('E-book')
         pdf_file = 'stocksinfo.pdf'  
         pdf_viewer(pdf_file)
-        #pdf_display = f'<iframe src="{st_pdf_viewer}" width="1000" height="1000" type="application/pdf"></iframe>'
+        pdf_display = f'<iframe src="{pdf_viewer}" width="1000" height="1000" type="application/pdf"></iframe>'
         st.markdown(pdf_display, unsafe_allow_html=True)
 
 if __name__ == "__main__":
