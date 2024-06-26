@@ -79,8 +79,8 @@ def app():
     with tabs[6]:
         st.subheader('E-book')
         # URL of the PDF file
-        pdf_url = "https://industri.fatek.unpatti.ac.id/wp-content/uploads/2019/03/McGraw.Hill_.Understanding-Stocks.pdf"
-        pdf_display = f'<iframe src="{pdf_url}" width="1000" height="1000" type="application/pdf"></iframe>'
+        pdf_path = "stocksinfo.pdf"
+        pdf_display = f'<iframe src="{pdf_pah}" width="1000" height="1000" type="application/pdf"></iframe>'
         st.markdown(pdf_display, unsafe_allow_html=True)
 
 
